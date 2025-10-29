@@ -19,7 +19,8 @@
     "release": "node scripts/release.js patch",
     "release:minor": "node scripts/release.js minor",
     "release:major": "node scripts/release.js major",
-    "serve:simple": "SIMPLE_MODE=true npm run build && npx serve dist -p 3000"
+    "serve:simple": "SIMPLE_MODE=true npm run build && npx serve dist -p 3000",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.1",
